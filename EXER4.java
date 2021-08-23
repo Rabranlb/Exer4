@@ -1,7 +1,9 @@
 public class EXER4{
     public static void main(String args[]){
-        for(int valor=150; valor<=300; valor++){
-            System.out.println(valor);
+        int fatorial = 1
+        for(int n=1; n < 10; n++){
+            fatorial = fatorial * n;
+            System.out.println("O fatorial de" + n + "! é igual a" + fatorial);
         }
     }
 }
